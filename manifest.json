@@ -1,0 +1,15 @@
+{
+    "name": "Elgato Key Light Air Control",
+    "description": "Control lighting profiles for Elgato Key Light Air",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "128": "icon_128.png"
+    },
+    "action": {
+        "default_popup": "popup.html"
+    },
+    "host_permissions": [
+        "http://*/"
+    ]
+}
