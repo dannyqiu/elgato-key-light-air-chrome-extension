@@ -1,7 +1,7 @@
 class Light {
-    constructor(ip) {
+    constructor(ip, port) {
         this.ip = ip;
-        this.port = 9123;
+        this.port = port;
     }
 
     async #sendRequest(path, method, body="") {

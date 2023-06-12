@@ -1,11 +1,13 @@
 function getLeftLight() {
     var ip = document.getElementById("left-ip").value;
-    return new Light(ip);
+    var port = document.getElementById("left-port").value;
+    return new Light(ip, parseInt(port));
 }
 
 function getRightLight() {
     var ip = document.getElementById("right-ip").value;
-    return new Light(ip);
+    var port = document.getElementById("right-port").value;
+    return new Light(ip, parseInt(port));
 }
 
 async function configureLight(light, profile) {

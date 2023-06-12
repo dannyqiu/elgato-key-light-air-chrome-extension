@@ -6,3 +6,7 @@ html {
 h1, h2 {
     margin-bottom: 4px;
 }
+
+#left-port, #right-port {
+    width: 50px;
+}
