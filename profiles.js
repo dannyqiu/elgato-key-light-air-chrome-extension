@@ -1,52 +1,62 @@
 var lightProfiles = {
     dawn: {
         left: {
-            brightness: 5,
-            color: 5000,
+            brightness: 4,
+            color: 3500,
         },
         right: {
-            brightness: 20,
-            color: 5000,
+            brightness: 15,
+            color: 3500,
         },
     },
     morning: {
         left: {
-            brightness: 10,
-            color: 5600,
+            brightness: 6,
+            color: 4000,
         },
         right: {
-            brightness: 45,
-            color: 5600,
+            brightness: 25,
+            color: 4000,
         },
     },
     morning2: {
         left: {
-            brightness: 30,
-            color: 5600,
+            brightness: 25,
+            color: 5000,
         },
         right: {
-            brightness: 60,
-            color: 5600,
+            brightness: 40,
+            color: 5000,
         },
     },
     morning3: {
         left: {
             brightness: 40,
-            color: 5600,
+            color: 5000,
         },
         right: {
-            brightness: 70,
-            color: 5600,
+            brightness: 65,
+            color: 5000,
         },
     },
     afternoon: {
         left: {
             brightness: 5,
-            color: 5000,
+            color: 4000,
         },
         right: {
             brightness: 30,
-            color: 5000,
+            color: 4000,
+        },
+    },
+    lateafternoon: {
+        left: {
+            brightness: 3,
+            color: 4000,
+        },
+        right: {
+            brightness: 12,
+            color: 4000,
         },
     },
     dusk: {
